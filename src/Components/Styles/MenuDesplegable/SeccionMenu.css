@@ -1,0 +1,27 @@
+.SeccionMenu .header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.SeccionMenu .header:hover{
+    background-color: rgb(225, 227, 230);
+}
+.SeccionMenu .nombre{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+.SeccionMenu .iconoApertura{
+    padding-right: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+.SeccionMenu .iconoApertura img{
+    height: 40%;
+}
+.SeccionMenu .interior{
+    padding-left: 40px;
+}

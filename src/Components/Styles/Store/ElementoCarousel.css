@@ -1,0 +1,38 @@
+.elementoCarousel{
+    width: 280px;
+    margin: 20px;
+}
+.elementoCarousel .contenedorImagen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.elementoCarousel .contenedorImagen img{
+    width: 100%;
+    border-radius: 4px;
+}
+.elementoCarousel .name{
+    width: 100%;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.elementoCarousel .price span{
+    color: rgb(218, 26, 26);
+    text-decoration:line-through;
+}
+.elementoCarousel .goToStore{
+    margin-top: 10px;
+}
+.elementoCarousel .goToStore a{
+    border: 2px outset white;
+    text-decoration: none;
+    padding: 2px 10px;
+    color: rgb(245, 249, 253);
+}
+.elementoCarousel .goToStore a:hover, .elementoCarousel .goToStore a:active{
+
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(240,231,240,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(240,231,240,1);
+    box-shadow: 0px 0px 10px 0px rgba(240,231,240,1);
+}

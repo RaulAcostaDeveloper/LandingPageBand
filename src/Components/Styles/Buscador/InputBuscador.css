@@ -1,0 +1,32 @@
+.InputBuscador{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.InputBuscador .contenedor{
+    width: 70%;
+    height: 30px;
+    box-shadow: inset 0 0 0 1px black; 
+    background-color: rgb(245, 249, 253);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);}
+.InputBuscador .contenedor img{
+    height: 80%;
+    padding-left: 5px;
+}
+.InputBuscador .contenedor input{
+    padding-left: 5px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    outline: none;
+}

@@ -1,0 +1,50 @@
+.MenuDesplegable{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(245, 249, 253);
+    position: fixed;
+    top: 0;
+    overflow: scroll;
+    padding-bottom: 50px;
+}
+@media screen and (min-width: 768px){
+    .MenuDesplegable{
+        width: 60%;
+        z-index: 6;
+    }
+    @keyframes openMenu {
+        0% {
+          width: 0px;
+        }
+        100% {
+            width: 60%;
+        }
+    }
+    @keyframes closeMenu {
+        0% {
+          width: 60%;
+        }
+        100% {
+            width: 0px;
+        }
+    }
+}
+@media screen and (max-width: 768px){
+    @keyframes openMenu {
+        0% {
+          width: 0px;
+        }
+        100% {
+            width: 100%;
+        }
+    }
+    @keyframes closeMenu {
+        0% {
+          width: 100%;
+        }
+        100% {
+            width: 0px;
+        }
+    }
+}

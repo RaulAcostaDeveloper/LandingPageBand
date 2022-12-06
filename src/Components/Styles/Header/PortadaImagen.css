@@ -1,0 +1,20 @@
+.PortadaImagen{
+    overflow: hidden;
+    height: 75vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.PortadaImagen img{
+    height: 100%;
+}
+
+@media screen and (min-width: 768px){
+    .PortadaImagen{
+        height: 100vh;
+    }
+    .PortadaImagen img{
+        height: 140%;
+    }
+}

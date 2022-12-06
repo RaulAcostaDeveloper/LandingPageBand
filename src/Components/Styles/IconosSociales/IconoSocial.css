@@ -1,0 +1,13 @@
+.IconoSocial{
+    height: 100%;
+}
+.IconoSocial a{
+    height: 100%;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.IconoSocial a img{
+    height: 50%;
+}

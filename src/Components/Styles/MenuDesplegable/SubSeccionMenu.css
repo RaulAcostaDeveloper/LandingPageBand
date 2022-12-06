@@ -1,0 +1,8 @@
+.subSeccionMenu{
+    height: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.2);
+    cursor: pointer;
+}
+.subSeccionMenu:hover{
+    background-color: rgb(225, 227, 230);
+}

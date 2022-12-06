@@ -1,0 +1,42 @@
+.carousel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-height: 100px;
+    box-shadow: inset 0 0 0 1px rgb(243, 243, 243); 
+
+}
+.carousel .inside{
+    width: 90%;
+    box-shadow: inset 0 0 0 1px rgb(243, 243, 243); 
+    position: relative;
+
+}
+.carousel .inside .buttonLeft, .carousel .inside .buttonRight{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+.carousel .inside .buttonLeft{
+    left: 0;
+}
+.carousel .inside .buttonRight{
+    right: 0;
+}
+.carousel .inside .buttonLeft button, .carousel .inside .buttonRight button{
+    width: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.carousel .inside .buttonLeft img, .carousel .inside .buttonRight img{
+    width: 100%;
+}
+
+.carousel .inside .elementos{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}

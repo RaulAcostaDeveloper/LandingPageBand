@@ -1,0 +1,12 @@
+.IconosSociales{
+    /* display: none; */
+    display: flex;
+    height: 40px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    justify-content: right;
+    z-index: 5;
+    background-color: rgb(12, 12, 12);
+}

@@ -1,0 +1,16 @@
+.buttonInactive{
+    margin: 20px 8px;
+}
+.buttonInactive a{
+    padding: 5px 10px;
+    background-color: rgb(88, 85, 85);
+    color: rgb(247, 244, 239);
+    font-size: 13px;
+
+    font-weight: bold;
+    border: 2px outset rgb(107, 107, 107);;
+}
+.buttonInactive a:active{
+    border: 1px outset rgb(107, 107, 107);
+
+}
