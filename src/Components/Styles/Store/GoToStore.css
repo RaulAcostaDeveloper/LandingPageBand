@@ -8,6 +8,8 @@
     border: 2px outset white;
     padding: 5px 20px;
     cursor: pointer;
+    text-decoration: none;
+    color: rgb(245, 249, 253);
 }
 .GoToStore a:hover, .GoToStore a:active{
 

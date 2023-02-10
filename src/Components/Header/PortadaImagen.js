@@ -1,4 +1,4 @@
-import portadaImagen from '../../images/portada-imagen.jpg';
+import portadaImagen from '../../images/DSC_0572.JPG';
 
 import '../Styles/Header/PortadaImagen.css';
 const PortadaImagen = ()=>{

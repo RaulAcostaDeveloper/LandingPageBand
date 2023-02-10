@@ -1,0 +1,15 @@
+.SomosDeLirio .header{
+    font-size: 40px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.SomosDeLirio .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.SomosDeLirio .logo img{
+    width: 50%;
+}

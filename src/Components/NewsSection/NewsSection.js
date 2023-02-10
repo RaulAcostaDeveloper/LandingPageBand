@@ -1,33 +1,33 @@
 import '../Styles/NewsSection/NewsSection.css';
 import New from './New';
-import News1 from '../../images/News/News1.jpg';
-import News2 from '../../images/News/News2.jpg';
-import News3 from '../../images/News/News3.jpg';
+import News1 from '../../images/News/DSC_0517.JPG';
+import News2 from '../../images/News/DSC_0533.JPG';
+import News3 from '../../images/News/DSC_0558.JPG';
 
 const NewsSection = ()=>{
     return (
         <div className='NewsSection'>
             <div className='header'>
-                News
+                Noticias De Lirio
             </div>
             <div className='news'>
                 <New 
-                    date={'NOV 15, 2022'} 
+                    date={'-- --, 2023'} 
                     img={News1} 
-                    title={'LEARN TO PLAY GUITAR WITH THE BAND'}
-                    link={'https://raulacostadeveloper.github.io/raulacostadeveloper/'}
+                    title={'Estreno del album RENACER'}
+                    link={'https://landing-page-band.vercel.app/'}
                     />
                 <New 
-                    date={'NOV 22, 2022'} 
+                    date={'-- --, 2023'} 
                     img={News2} 
-                    title={'STREAMING LIVE ON YOUTUBE'}
-                    link={'https://raulacostadeveloper.github.io/raulacostadeveloper/'}
+                    title={'Presentación en gira estatal'}
+                    link={'https://landing-page-band.vercel.app/'}
                     />
                 <New 
-                    date={'DEC 10, 2022'} 
+                    date={'-- --, 2023'} 
                     img={News3} 
-                    title={'READY FOR FUTURE, ANSWERING QUESTIONS'}
-                    link={'https://raulacostadeveloper.github.io/raulacostadeveloper/'}
+                    title={'Próximas giras nacionales'}
+                    link={'https://landing-page-band.vercel.app/'}
                     />
 
             </div>

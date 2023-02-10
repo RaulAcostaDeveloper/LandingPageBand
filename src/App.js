@@ -10,6 +10,8 @@ import PhotosSection from "./Components/Photos/PhotosSection";
 import StoreSection from "./Components/Store/StoreSection";
 import TourDatesSection from "./Components/TourDatesSection/TourDatesSection";
 import VideosSection from "./Components/Videos/VideosSection";
+import './Colores.css';
+import SomosDeLirio from "./Components/SomosDeLirio/SomosDeLirio";
 function App() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const [isOpenBuscar, setIsOpenBuscar] = useState(false);
@@ -25,13 +27,14 @@ function App() {
       <Header handleOpenMenu={handleOpenMenu} handleOpenBuscar={handleOpenBuscar}/>
       <MenuDesplegable isOpen={isOpenMenu} handleOpen={handleOpenMenu}/>
       <Buscador isOpen={isOpenBuscar} handleOpen={handleOpenBuscar}/>
-      <IconosSociales/>
       <TourDatesSection/>
       <NewsSection/>
       <StoreSection/>
       <VideosSection/>
       <PhotosSection/>
+      <SomosDeLirio/>
       <Footer/>
+      <IconosSociales/>
     </div>
   );
 }

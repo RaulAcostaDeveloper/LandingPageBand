@@ -1,0 +1,44 @@
+.colores {
+    font-size: 30px;
+
+}
+.colores p{
+    width: 100%;
+    text-align: center;
+}
+.colores .contenedorColores{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.colores .cajaColor{
+    width: 200px;
+    height: 200px;
+    border:1px solid black;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+}
+
+.colores .coloresAnteriores .color1{
+    background-color: black;
+}
+.colores .coloresAnteriores .color2{
+    background-color: #0C508D;
+}
+.colores .coloresAnteriores .color3{
+    background-color: #A21B40;
+}
+
+.colores .coloresPosteriores .color1{
+    background-color: rgb(16, 16, 16);
+}
+.colores .coloresPosteriores .color2{
+    background-color: #033e72;
+}
+.colores .coloresPosteriores .color3{
+    background-color: #a21b26;
+}

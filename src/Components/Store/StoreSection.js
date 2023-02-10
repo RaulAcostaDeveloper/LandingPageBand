@@ -10,32 +10,32 @@ const StoreSection = ()=>{
         setDataStore({
             clothes:[
                 { 
-                    name: 'SINGLE T-SHIRT M', 
-                    price: 20.99, 
+                    name: 'Playera De Lirio M', 
+                    price: 'Proximamente...', 
                     discount: 0, 
                     image: TShirt, 
-                    link: 'https://www.linkedin.com/in/raulacostaservicio/'
+                    link: 'https://landing-page-band.vercel.app/'
                 },
                 { 
-                    name: 'SINGLE T-SHIRT G', 
-                    price: 20.99, 
-                    discount: 10, 
+                    name: 'Playera De Lirio G', 
+                    price: 'Proximamente...', 
+                    discount:0, 
                     image: TShirt, 
-                    link: 'https://www.linkedin.com/in/raulacostaservicio/'
+                    link: 'https://landing-page-band.vercel.app/'
                 },
                 { 
-                    name: 'SINGLE T-SHIRT CH', 
-                    price: 20.99, 
+                    name: 'Playera De Lirio RENACER M', 
+                    price: 'Proximamente...', 
                     discount: 0, 
                     image: TShirt, 
-                    link: 'https://www.linkedin.com/in/raulacostaservicio/'
+                    link: 'https://landing-page-band.vercel.app/'
                 },
                 { 
-                    name: 'SINGLE T-SHIRT A', 
-                    price: 20.99, 
-                    discount: 10, 
+                    name: 'Playera De Lirio RENACER G', 
+                    price: 'Proximamente...', 
+                    discount:0, 
                     image: TShirt, 
-                    link: 'https://www.linkedin.com/in/raulacostaservicio/'
+                    link: 'https://landing-page-band.vercel.app/'
                 },
             ]
         })
@@ -43,9 +43,9 @@ const StoreSection = ()=>{
     return (
         <div className="StoreSection">
             <div className='header'>
-                Store
+                Tienda De Lirio
             </div>
-            <GroupStore title={'Clothes'} data={dataStore.clothes}/>
+            <GroupStore title={'Ropa'} data={dataStore.clothes}/>
             <GoToStore/>
         </div>
     )

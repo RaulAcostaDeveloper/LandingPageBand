@@ -4,14 +4,14 @@ const VideosSection = ()=>{
     return (
         <div className="VideosSection">
             <div className="header">
-                Videos
+                Videos De Lirio
             </div>
             <div className='subscribete'>
-                <a href='https://raulacostadeveloper.github.io/raulacostadeveloper/' target='_blank'>Subscribete a nuestro canal de Youtube</a>
+                <a href='https://landing-page-band.vercel.app/' target='_blank'  rel="noreferrer">Subscribete a nuestro canal de Youtube</a>
             </div>
             <Videos/>
             <div className='visitOurChannel'>
-                <a href='https://raulacostadeveloper.github.io/raulacostadeveloper/' target='_blank'>VISIT OUT CHANNEL</a>
+                <a href='https://landing-page-band.vercel.app/' target='_blank'  rel="noreferrer">VISIT OUR CHANNEL</a>
             </div>
         </div>
     )

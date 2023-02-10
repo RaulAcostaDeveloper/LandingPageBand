@@ -4,22 +4,22 @@ const TourDatesSection = ()=>{
     return (
         <div className='TourDatesSection'>
             <div className='header'>
-                Tour Dates
+                Fechas eventos De Lirio
             </div>
             <div className='dates'>
                 <TourDate
-                    date={{month:'DEC', day:'16', year:'2022'}}
-                    title={'Los Angeles, CA, United States'}
-                    description={'All Within My Hands Helping Hands Concert & Auction @ Microsoft Theater'}
-                    linkInfo={'https://raulacostadeveloper.github.io/raulacostadeveloper/'}
-                    linkBuyTickets={'https://raulacostadeveloper.github.io/raulacostadeveloper/'}
-                    isSoldOut={false}
+                    date={{month:'--', day:'--', year:'2023'}}
+                    title={'Proximamente...'}
+                    description={'Evento oficial de presentación del album.'}
+                    linkInfo={'https://landing-page-band.vercel.app/'}
+                    linkBuyTickets={'https://landing-page-band.vercel.app/'}
+                    isSoldOut={true}
                 />
                 <TourDate
-                    date={{month:'DEC', day:'16', year:'2022'}}
-                    title={'Los Angeles, CA, United States'}
-                    description={'All Within My Hands Helping Hands Concert & Auction @ Microsoft Theater'}
-                    linkInfo={'https://raulacostadeveloper.github.io/raulacostadeveloper/'}
+                    date={{month:'--', day:'--', year:'2023'}}
+                    title={'Proximamente...'}
+                    description={'Tour Veracruz - Puebla'}
+                    linkInfo={'https://landing-page-band.vercel.app/'}
                     isSoldOut={true}
                 />
             </div>
