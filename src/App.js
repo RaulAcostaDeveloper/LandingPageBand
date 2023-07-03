@@ -12,6 +12,7 @@ import TourDatesSection from "./Components/TourDatesSection/TourDatesSection";
 import VideosSection from "./Components/Videos/VideosSection";
 import './Colores.css';
 import SomosDeLirio from "./Components/SomosDeLirio/SomosDeLirio";
+import MediaSection from "./Components/MediaSection/MediaSection";
 function App() {
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   const [isOpenBuscar, setIsOpenBuscar] = useState(false);
@@ -24,15 +25,20 @@ function App() {
 }
   return (
     <div className="App">
-      <Header handleOpenMenu={handleOpenMenu} handleOpenBuscar={handleOpenBuscar}/>
-      <MenuDesplegable isOpen={isOpenMenu} handleOpen={handleOpenMenu}/>
-      <Buscador isOpen={isOpenBuscar} handleOpen={handleOpenBuscar}/>
+      <Header 
+        handleOpenMenu = { handleOpenMenu } 
+        handleOpenBuscar = { handleOpenBuscar }/>
+      <MenuDesplegable 
+        isOpen = { isOpenMenu } 
+        handleOpen = { handleOpenMenu }/>
+      <Buscador 
+        isOpen = { isOpenBuscar } 
+        handleOpen = { handleOpenBuscar }/>
       <TourDatesSection/>
-      <NewsSection/>
-      <StoreSection/>
-      <VideosSection/>
-      <PhotosSection/>
       <SomosDeLirio/>
+      <StoreSection/>
+      <NewsSection/>
+      <MediaSection/>
       <Footer/>
       <IconosSociales/>
     </div>

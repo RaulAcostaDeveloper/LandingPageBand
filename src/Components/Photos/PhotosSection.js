@@ -1,10 +1,4 @@
 import '../Styles/Photos/PhotosSection.css';
-// Imagenes de album
-import portada1 from '../../images/Albums/photo3.jpg';
-import portada2 from '../../images/Albums/cqwnpen.jpg';
-import portada3 from '../../images/Albums/DSCF7141.jpg';
-import portada4 from '../../images/Albums/qpwcbnqpw.jpg';
-import portada5 from '../../images/Albums/qwdniqw0ndwqpdn.jpg';
 
 import { useEffect, useState } from 'react';
 import Album from './Album';
@@ -13,34 +7,34 @@ const PhotosSection = ()=>{
     useEffect(()=>{
         setData([
             {
-                srcImg:portada1,
-                link:'https://landing-page-band.vercel.app/',
-                titulo:'Sesión de fotos grabación RENACER',
+                srcImg:'/imagenes/PosterVideo1.jpg',
+                link:'#fotos',
+                titulo:'Nuestros instrumentos',
             },
             {
-                srcImg:portada5,
-                link:'https://landing-page-band.vercel.app/',
-                titulo:'Sesión de fotos grabación RENACER',
+                srcImg:'/albunes/qwdniqw0ndwqpdn.jpg',
+                link:'#fotos',
+                titulo:'Fotos de Pablo Michel',
             },
             {
-                srcImg:portada3,
-                link:'https://landing-page-band.vercel.app/',
-                titulo:'Sesión de fotos grabación RENACER',
+                srcImg:'/albunes/DSCF7141.jpg',
+                link:'#fotos',
+                titulo:'Fotos de Javi Cruz',
             },
             {
-                srcImg:portada2,
-                link:'https://landing-page-band.vercel.app/',
-                titulo:'Sesión de fotos grabación RENACER',
+                srcImg:'/albunes/cqwnpen.jpg',
+                link:'#fotos',
+                titulo:'Fotos de Raúl Acosta',
             },
             {
-                srcImg:portada4,
-                link:'https://landing-page-band.vercel.app/',
-                titulo:'Sesión de fotos grabación RENACER',
+                srcImg:'/albunes/qpwcbnqpw.jpg',
+                link:'#fotos',
+                titulo:'Fotos de Osmar Zaragosa',
             },
         ]);
     },[])
     return (
-        <div className="PhotosSection">
+        <div className="PhotosSection" id='fotos'>
             <div className='header'>
                 Fotos De Lirio
             </div>

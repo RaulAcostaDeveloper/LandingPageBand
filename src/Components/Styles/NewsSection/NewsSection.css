@@ -6,6 +6,11 @@
 }
 .NewsSection .news{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.NewsSection h3{
+    padding-left: 25px;
 }

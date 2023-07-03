@@ -1,8 +1,8 @@
 import '../Styles/Store/GroupStore.css';
 import Carousel from './Carousel';
-const GroupStore = ({title, data})=>{
+const GroupStore = ({title, data, id})=>{
     return(
-        <div className="groupStore">
+        <div className="groupStore" id = { id }>
             <div className="header">
                 {title}
             </div>

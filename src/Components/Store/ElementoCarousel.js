@@ -19,7 +19,7 @@ const ElementoCarousel=({elemento})=>{
                 </div>
             }
             <div className='goToStore'>
-                <a href={elemento.link} target='_blank'>
+                <a href={elemento.link}>
                     I WANT IT
                 </a>
             </div>

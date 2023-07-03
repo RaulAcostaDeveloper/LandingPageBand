@@ -1,8 +1,10 @@
 import '../Styles/MenuDesplegable/SubSeccionMenu.css';
-const SubSeccionMenu = ({titulo})=>{
+const SubSeccionMenu = ({ titulo, liga, handleOpen, target })=>{
     return (
         <div className="subSeccionMenu">
-            {titulo}
+            <a href={ liga } onClick={ () => handleOpen() } target= { target }>
+                { titulo }
+            </a>
         </div>
     )
 }

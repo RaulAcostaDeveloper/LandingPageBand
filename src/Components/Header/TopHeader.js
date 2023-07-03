@@ -4,13 +4,13 @@ import FanClubButton from "./FanClubButton";
 import CarritoHeader from "./CarritoHeader";
 import LogoBandaMenu from "./LogoBandaMenu";
 import '../Styles/Header/TopHeader.css';
-const TopHeader = ({handleOpenMenu, handleOpenBuscar})=>{
+const TopHeader = ({ handleOpenMenu, handleOpenBuscar })=>{
     return (
         <div className="topHeader">
-            <BotonMenu handleOpen={handleOpenMenu}/>
-            <BotonSearch handleOpen={handleOpenBuscar}/>
+            <BotonMenu handleOpen = { handleOpenMenu }/>
+            {/* <BotonSearch handleOpen={handleOpenBuscar}/> */}
             <LogoBandaMenu/>
-            <FanClubButton/>
+            {/* <FanClubButton/> */}
             <CarritoHeader/>
         </div>
     )
