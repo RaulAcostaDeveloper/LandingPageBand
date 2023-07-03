@@ -22,7 +22,7 @@ const Videos  = ()=>{
                 source={ entrevistaRadioF }
                 titulo={ 'Entrevista Radio Futura ' }
                 descripcion={ 'El 02 de julio hicimos una entrevista con Radio Futura' }
-                poster={ '/imagenes/entrevista.png' }
+                poster={ '/imagenes/entrevista.jpg' }
                 link={ 'https://www.youtube.com/watch?v=iADGcH_qKxM&ab_channel=RadioFuturatv' }/>
         </div>
     )
