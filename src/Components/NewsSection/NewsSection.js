@@ -13,7 +13,7 @@ const NewsSection = ()=>{
             <div className='news'>
                 <New
                     date={ '02 julio 2023' } 
-                    img={ '/imagenes/entrevista.png' } 
+                    img={ '/imagenes/entrevista.jpg' } 
                     title={ 'Entrevista con Radio Futura' }
                     link={ 'https://youtu.be/iADGcH_qKxM' }
                     />
